@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    overflow: hidden; 
+    position: relative;
+}
+
+.logo {
+    float: left;
+    align-content: center;
+    text-align: center;
+}
+
+.navigation {
+    align-content: center;
+    float: right;
+    text-align: center;
+    margin-right: 7rem;
+}
+
+.box-container{
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 1rem 0;
+}
+
+.box:nth-child(3) {
+    margin-right: 0;
+}
+.box{
+    min-height: 250px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 3rem;
+    padding: 1rem;
+    width: calc((100% - 6rem) / 3);
+    align-content: center;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    margin-top: 0rem;
+}

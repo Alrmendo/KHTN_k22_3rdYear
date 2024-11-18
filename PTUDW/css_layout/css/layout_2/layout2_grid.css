@@ -1,0 +1,23 @@
+.container {
+    width: 50%;         
+    margin: 0 auto;    
+    height: 100%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-rows: 1.2fr 8fr 0.8fr;
+	border: 2px solid black;
+	padding: 1rem;
+    box-sizing: border-box;
+}
+
+.main {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 0.3fr 0.7fr;
+}
+
+.content {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-rows: 0.33fr 0.67fr;
+}

@@ -1,0 +1,41 @@
+.container{
+    background-color: lightgray;
+    padding: 0.5rem 4rem;
+    margin: 0 auto;
+    width: 80%;
+}
+.header, .intro, .banner, .box, footer{
+    box-sizing: border-box;
+    background-color: darkgray;
+    text-align: center; 
+    padding: 1rem;
+    margin-top: 1em;
+    margin-bottom : 1em;
+    font-size: 24px;
+}
+
+.banner{
+    padding: 2.5rem;
+    font-size: 28px;
+
+}
+.intro{
+    padding: 2rem;
+    font-weight: bold;
+}
+
+footer{
+    padding: 0;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.box{
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 32px;
+}

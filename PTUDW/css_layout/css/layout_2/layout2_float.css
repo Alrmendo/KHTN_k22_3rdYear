@@ -1,0 +1,40 @@
+.container {
+    width: 50%;        
+    height: 100%; 
+    border: 2px solid black;     
+    padding: 1rem;
+    margin: 0 auto;   
+}
+
+.logo-main {
+    height: calc((100% - 1rem) * 0.12);
+    margin-bottom: 0.5rem;              
+}
+
+.main {
+    height: calc((100% - 1rem) * 0.8);
+    display: flex;
+}
+
+.sidebar {
+    width: calc((100% - 0.5rem) * 0.3); 
+    margin-right: 0.5rem;               
+}
+
+.content {
+    width: calc((100% - 0.5rem) * 0.7); 
+}
+
+.header {
+    height: calc((100% - 0.5rem) * 0.33); 
+    margin-bottom: 0.5rem;               
+}
+
+.body-area {
+    height: calc((100% - 0.5rem) * 0.67);
+}
+
+.footer {
+    margin-top: 0.5rem;                    
+    height: calc((100% - 1rem) * 0.08);   
+}

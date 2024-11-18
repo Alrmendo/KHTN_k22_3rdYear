@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+.container{
+    
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 30%;
+}
+
+.navigation{
+    display: flex;
+    flex-basis: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container{
+    display: flex;
+    min-height: 250px;
+    gap: 3em;
+    justify-content: space-between;
+}
+
+.box{
+    flex-basis: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

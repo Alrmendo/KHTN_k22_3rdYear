@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%; 
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+}
+.navigation{
+    margin: auto;
+}
+.logo{
+    justify-content: flex-start;
+    align-content: flex-start;
+    text-align: left;
+}
+.box-container{
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-self: end;
+    column-gap: 3rem;
+} 
+.box, .navigation{
+    align-content: center;
+    text-align: center;
+}
+
+.footer{
+    margin-top: 1em;
+}

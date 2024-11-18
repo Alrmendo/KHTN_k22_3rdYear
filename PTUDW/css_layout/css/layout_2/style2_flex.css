@@ -1,0 +1,44 @@
+* {
+	font-family: Arial, sans-serif;
+}
+
+.grey-bg {
+	background-color: #c0c0c0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.vertical-text {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.horizontal-text {
+	text-align: center;
+}
+
+.logo {
+	padding: 0 0 0.5rem 1rem;
+	font-size: 1.5rem;
+}
+
+.sidebar_navigate {
+	font-size: 1.5rem;
+	padding: 1rem;
+	line-height: 1.5; 
+}
+
+.header {
+	font-size: 1.5rem;
+}
+
+.body-area {
+	font-size: 1.5rem;
+}
+
+.footer {
+	font-size: 1.5rem;
+}
