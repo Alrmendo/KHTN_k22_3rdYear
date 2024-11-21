@@ -1,0 +1,24 @@
+<!--contain-->
+<div class="container">
+    <h1 class="text-center">Inspiring Quotes</h1>
+    <div class="row destacados">
+        {{#each emotions}}
+        <div class="col-md-3">
+            <a href="#" onclick="showQuoteImage(event, '{{quotePath}}')">
+                <img src="/images/{{imagePath}}" alt="happy" class="img-circle img-thumbnail">
+                <h2>{{title}}</h2>
+            </a>
+        </div>
+        {{/each}}
+    </div>
+    <div class="row text-center">
+        <img class="img-thumbnail" src="images/task1/default.jpg" id="quoteImage"/>
+    </div>
+</div>
+<!--/contain-->
+<script>
+    function showQuoteImage(e, quotePath){
+        e.preventDefault();
+        document.querySelector('#quoteImage').src = `/images/${quotePath}`
+    }
+</script>
